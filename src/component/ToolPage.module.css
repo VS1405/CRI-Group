@@ -1,0 +1,39 @@
+.con{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 16px;
+}
+.con .toolImg {
+    width: 100%;
+    height: 100%;
+  
+}
+.toolImg img{
+    width: 50%;
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 600px){
+    .con{
+        width: 100%;
+        height: 100%;
+        font-size: 12px;
+    }
+    .toolImg {
+        width: 100%;
+        height: 100%;
+    }
+    .con p{
+        padding: 0 10px;
+    }
+    .toolImg img{
+        width: 70%;
+        height: 100%;
+        padding: 0 10px;
+    }
+    
+}
